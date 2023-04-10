@@ -1,0 +1,15 @@
+{
+  "name": "grocer-web",
+  "version": "1.0.0",
+  "description": "front-end for grocer",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}

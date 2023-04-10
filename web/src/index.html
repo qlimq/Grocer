@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="debug">debug on</div>
+    <div id="carousel" style="transform:translateX(0%);">
+        
+        <section id="menu">
+            <div class="appTab">
+                
+                <button class="profile"><img src="images.jpg"></button>
+                <h2 class="heading">Grocer</h2>
+                <div class="listedItems">
+                    <button class="noteListItem"><p class="opacity50">Create a new list</p></button>
+                </div>
+            </div>
+        </section>
+        <section id="app">
+            <div class="appTab">
+                <div class="top">
+                    
+                    <button class="profile"><img src="images.jpg"></button>
+                    <button class="backButton">&lt;</button>
+                    <div>
+                        <input type="text" id="listTitle" class="heading" placeholder="unnamed list" autocomplete="off">
+                        <button id="shared" class="opacity50 shared"></button>
+                
+                    </div>
+                </div>
+                <div class="list">
+                    
+                </div>
+                <button id="add" class="add opacity75">tap to add...</button>
+            </div>
+            <div id="lastedit" class="bottom opacity50"><p></p></p>
+        </section>
+        <section id="editprofile">
+            <div class="appTab">
+                <div class="top">
+                    <button class="backButton">&lt;</button>
+                    <h3 class="heading">Edit profile</h3></div>
+                <div class="listedItems">
+                    <p>Username</p>
+                    <input class="edit" type="text" id="username" placeholder="" autocomplete="off">
+                    <p>Profile picture</p>
+                    <input class="edit" type="file" accept="image/*" autocomplete="off">
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,2 +1,4 @@
 .vscode/
-nodejs/node_modules
+node_modules
+.parcel-cache
+web/dist
